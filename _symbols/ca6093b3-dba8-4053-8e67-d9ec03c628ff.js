@@ -2937,7 +2937,7 @@ function create_fragment(ctx) {
 			span = element("span");
 			t1 = text("Powered by ");
 			a = element("a");
-			t2 = text("Primo");
+			t2 = text("Voyager Social AI");
 			t3 = space();
 			div = element("div");
 
@@ -2964,7 +2964,7 @@ function create_fragment(ctx) {
 			t1 = claim_text(span_nodes, "Powered by ");
 			a = claim_element(span_nodes, "A", { href: true, class: true });
 			var a_nodes = children(a);
-			t2 = claim_text(a_nodes, "Primo");
+			t2 = claim_text(a_nodes, "Voyager Social AI");
 			a_nodes.forEach(detach);
 			span_nodes.forEach(detach);
 			t3 = claim_space(footer_nodes);
@@ -2981,7 +2981,7 @@ function create_fragment(ctx) {
 		},
 		h() {
 			attr(nav, "class", "svelte-s3xnx0");
-			attr(a, "href", "https://primo.so");
+			attr(a, "href", "https://www.voyagersocial.ai");
 			attr(a, "class", "svelte-s3xnx0");
 			attr(span, "class", "primo svelte-s3xnx0");
 			attr(div, "class", "social-links svelte-s3xnx0");
